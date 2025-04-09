@@ -10,7 +10,7 @@ void UIntToHexStr(unsigned int uiValue, char pcStr[])
 
     pcStr[0] = '0';
     pcStr[1] = 'x';
-
+// git test
     for (ucCurrentNibbleIterator = 0; ucCurrentNibbleIterator < 4; ucCurrentNibbleIterator++)
     {
         ucNibble = (uiValue >> (ucCurrentNibbleIterator * NIBBLE_BIT_COUNT)) & NIBBLE_BM;
